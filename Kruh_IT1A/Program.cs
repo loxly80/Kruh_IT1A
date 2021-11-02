@@ -6,7 +6,13 @@ namespace Kruh_IT1A
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int volba;
+            Console.WriteLine(" KRUH");
+            Console.WriteLine("-----------------");
+            Console.WriteLine(" 1 - zadání poloměru");
+            Console.WriteLine(" 2 - zadání průměru");
+            volba = int.Parse(Console.ReadLine());
+            
         }
     }
 }
